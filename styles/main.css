@@ -1,0 +1,29 @@
+body {
+  padding: 0;
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+.home {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+.home .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
